@@ -1,6 +1,5 @@
 def mergeSort(arr):
     if len(arr) > 1:
-  
          # Finding the mid of the array
         mid = len(arr)//2
   
@@ -46,7 +45,6 @@ def printList(arr):
     for i in range(len(arr)):
         print(arr[i], end=" ")
     print()
-  
   
 # Driver Code
 if __name__ == '__main__':

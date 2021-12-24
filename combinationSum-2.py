@@ -10,7 +10,12 @@ class Solution(object):
         return(ans)
     def backtrack(self,candy,ans,target,temp):
         if(target==0):
-            ans.ext
+            ans.extend([temp])
+        elif(target<0):
+            return
+        else:
+            for i in range(len(candy)):
+                self.backtrack(candy[i:],ans,target-candy[i],temp+[candy[i]])
 x=Solution()
 arr=[2,7,6,3,5,1]
 target=9

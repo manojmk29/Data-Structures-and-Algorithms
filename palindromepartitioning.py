@@ -1,6 +1,4 @@
 from typing import DefaultDict
-
-
 class Solution(object):
     def partition(self, word):
         """

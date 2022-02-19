@@ -9,6 +9,12 @@
             "type": "python",
             "request": "launch",
             "module": "enter-your-module-name"
+        },
+        {
+            "name": "Debug Unit Test",
+            "type": "python",
+            "request": "attach",
+            "justMyCode": false,
         }
     ]
 }
